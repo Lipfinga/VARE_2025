@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 
 namespace Assets.Scripts
 {
-    class Slicer
+    class Slicer : MonoBehaviour
     {
         /// <summary>
         /// Slice the object by the plane 
