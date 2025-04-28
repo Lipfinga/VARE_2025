@@ -70,7 +70,7 @@ public class Lighsaber : MonoBehaviour
         _previousBasePosition = _base.transform.position;
     }
     
-    void LateUpdate()
+    /*void LateUpdate()
     {
         //Reset the frame count one we reach the frame length
         if(_frameCount == (_trailFrameLength * NUM_VERTICES))
@@ -115,7 +115,7 @@ public class Lighsaber : MonoBehaviour
         _previousTipPosition = _tip.transform.position;
         _previousBasePosition = _base.transform.position;
         _frameCount += NUM_VERTICES;
-    }
+    }*/
 
     private void OnTriggerEnter(Collider other)
     {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using MixedReality.Toolkit.SpatialManipulation;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -30,9 +31,11 @@ namespace Assets.Scripts
 
             GameObject positiveObject = CreateMeshGameObject(objectToCut);
             positiveObject.name = string.Format("{0}_positive", objectToCut.name);
+            positiveObject.AddComponent(typeof(ObjectManipulator));
 
             GameObject negativeObject = CreateMeshGameObject(objectToCut);
             negativeObject.name = string.Format("{0}_negative", objectToCut.name);
+            negativeObject.AddComponent(typeof(ObjectManipulator));
 
             var positiveSideMeshData = slicesMeta.PositiveSideMesh;
             var negativeSideMeshData = slicesMeta.NegativeSideMesh;
