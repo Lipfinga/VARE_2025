@@ -6,7 +6,7 @@ public class Reset : MonoBehaviour
 
     public void ResetGame()
     {
-        SceneManager.LoadScene("Butterknife", LoadSceneMode.Additive);
+        SceneManager.LoadScene("TestHandMenu", LoadSceneMode.Single);
     }
 
     // Update is called once per frame
