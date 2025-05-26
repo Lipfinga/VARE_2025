@@ -81,6 +81,7 @@ namespace Assets.Scripts
 
         /// <summary>
         /// Add mesh collider and rigid body to game object
+        /// Add 
         /// </summary>
         /// <param name="gameObject"></param>
         /// <param name="mesh"></param>
