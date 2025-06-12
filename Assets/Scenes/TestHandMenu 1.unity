@@ -412,8 +412,28 @@ PrefabInstance:
       value: Bread
       objectReference: {fileID: 0}
     - target: {fileID: 3316992658331686828, guid: e74422bf60f4dfd48bb2ff0900024fdf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.16663939
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316992658331686828, guid: e74422bf60f4dfd48bb2ff0900024fdf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.16663939
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316992658331686828, guid: e74422bf60f4dfd48bb2ff0900024fdf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16663939
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316992658331686828, guid: e74422bf60f4dfd48bb2ff0900024fdf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.66
+      value: 9.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316992658331686828, guid: e74422bf60f4dfd48bb2ff0900024fdf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316992658331686828, guid: e74422bf60f4dfd48bb2ff0900024fdf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
