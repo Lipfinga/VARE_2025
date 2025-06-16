@@ -14,6 +14,9 @@ public class Snapping : MonoBehaviour
     public GameObject blade_origin;
     public GameObject handle_origin;
     public GameObject newBladePos;
+    public GameObject kartana;
+    public bool snap1 = false;
+    public bool snap2 = false;
     void Start()
     {
         
@@ -39,7 +42,7 @@ public class Snapping : MonoBehaviour
         {
             guard.transform.position = handle_origin.transform.position;
             guard.transform.rotation = handle_origin.transform.rotation;
-            
+            //snap1 = true;
         }
 
         if (a < 0.5f)
@@ -49,7 +52,13 @@ public class Snapping : MonoBehaviour
             blade.transform.position = newBladePos.transform.position;
           //  blade_origin.transform.rotation = guard_origin.transform.rotation;
             blade.transform.rotation = guard_origin.transform.rotation;
+            //snap2 = true;
         }
+
+       /* if (snap1 && snap2)
+        {
+            kartana.transform.Rotate(Vector3.up * 10);
+        }*/
 
     }
 
